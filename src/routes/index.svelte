@@ -6,7 +6,7 @@
     .Banner{
         width: 100%;
         height: 300px;
-        background-image: url(images/bandera.jpg);
+        background-image: url(/images/bandera.jpg);
         background-repeat: no-repeat, repeat;
         background-position: center;
         background-size: cover;
