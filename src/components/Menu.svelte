@@ -58,8 +58,8 @@
 </style>
 
 <nav class:HeaderOpen={headerOpen} class="Header">
-    <a href="/">Inicio</a>
-    <a href="/">Panel</a>
-    <a href="/">Panel</a>
-    <a href="/">Panel</a>
+    <a sveltekit:prefetch href="/">Inicio</a>
+    <a sveltekit:prefetch href="/linea_tiempo">Linea de tiempo</a>
+    <a sveltekit:prefetch href="/definiciones">Definiciones</a>
+    <a sveltekit:prefetch href="/mitos">Mitos</a>
 </nav>

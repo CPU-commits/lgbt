@@ -1,5 +1,15 @@
 <script>
     import 'animate.css'
+    import Time from '$components/Time.svelte'
+
+    const time = {
+        title: 'Comienzo',
+        icon: '<i class="fas fa-hourglass-start"></i>',
+        description: 'gfr',
+        src: 'https://todomejora.org/wp-content/uploads/2016/07/pride-85.jpg',
+        alt: 'Edsfds',
+        bajada: 'Bajada'
+    }
 </script>
 
 <style>
@@ -29,7 +39,7 @@
 
     .Banner h1{
         font-family: 'Work Sans', sans-serif;
-        font-size: 2rem;
+        /*font-size: 2rem;*/
         text-align: center;
     }
 
@@ -60,22 +70,8 @@
     .History h2{
         text-align: center;
         color: #821252;
-        font-size: 2rem;
+        /*font-size: 2rem;*/
         margin: 20px;
-    }
-
-    .Label{
-        background-color: white;
-        color: black;
-        padding: 10px;
-        border-radius: 10px;
-        font-size: 1rem;
-        position: absolute;
-        top: 20px;
-    }
-
-    .Label p {
-        font-family: 'Work Sans', sans-serif;
     }
 
     .History__content{
@@ -84,43 +80,6 @@
         justify-content: center;
         align-items: center;
         position: relative;
-    }
-
-    .History__content--history{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        font-size: 1.2rem;
-        gap: 20px;
-        margin-bottom: 20px;
-        max-width: 1000px;
-        border-radius: 20px;
-        padding: 20px;
-        background-color: #821252;
-    }
-
-    .First{
-        background-color: #d72680;
-    }
-
-    .Second{
-        background-color: #520b8c;
-    }
-
-    .Image{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Image img{
-        max-width: 500px;
-    }
-
-    .Image figcaption{
-        font-size: .9rem;
     }
 
     .Changes{
@@ -157,26 +116,7 @@
 <section class="History">
     <h2>Un poco de historia</h2>
     <div class="History__content">
-        <div class="History__content--history First">
-            <div class="Label">
-                <p>Comienzo <i class="fas fa-hourglass-start"></i></p>
-            </div>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Magna nulla mattis nostra gravida hendrerit platea in quis leo dignissim nullam? </p>
-            <figure class="Image">
-                <img src="https://todomejora.org/wp-content/uploads/2016/07/pride-85.jpg" alt="Manifestación LGBT California">
-                <figcaption>Estamos</figcaption>
-            </figure>
-        </div>
-        <div class="History__content--history Second">
-            <div class="Label">
-                <p>Chile <i class="fas fa-flag"></i></p>
-            </div>
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Magna nulla mattis nostra gravida hendrerit platea in quis leo dignissim nullam? </p>
-            <figure class="Image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Marcha_gay_en_Santiago_de_Chile%2C_2009.jpg" alt="Manifestación Chile">
-                <figcaption>Estamos</figcaption>
-            </figure>
-        </div>
+        <Time time={time} />
     </div>
 </section>
 
@@ -186,3 +126,5 @@
         <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Integer nascetur natoque class rutrum diam. Maecenas laoreet posuere donec nascetur. Augue feugiat luctus torquent primis nam inceptos. Penatibus lectus id cras, tortor turpis habitasse. Faucibus vivamus ex amet eu venenatis ultrices. Efficitur nulla conubia per purus nibh primis.</p>
     </div>
 </section>
+
+<iframe width="942" height="539" src="https://www.youtube.com/embed/jENodz13xR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
