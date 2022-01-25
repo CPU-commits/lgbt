@@ -3,12 +3,13 @@
     import Time from '$components/Time.svelte'
 
     const time = {
-        title: 'Comienzo',
-        icon: '<i class="fas fa-hourglass-start"></i>',
-        description: 'gfr',
-        src: 'https://todomejora.org/wp-content/uploads/2016/07/pride-85.jpg',
-        alt: 'Edsfds',
-        bajada: 'Bajada'
+            title: '1969, Estados Unidos',
+            icon: '<img alt="Bandera de Estados Unidos" width="30px" src="https://img.icons8.com/color/48/000000/usa-circular.png"/>',
+            description: 'Marcha multitudinaria en Stonewall de diversidades sexuales reclamando por la discriminación constante que sufrían por su identidad donde luchan contra la policía.',
+            alt: 'Marcha de Stonewall',
+            bajada: 'Marcha de Stonewall',
+            src: '/images/lt/1969.jpg',
+            color: '#081bc7'
     }
 </script>
 
