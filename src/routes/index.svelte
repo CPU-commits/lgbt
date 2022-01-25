@@ -39,7 +39,7 @@
 
     .Banner h1{
         font-family: 'Work Sans', sans-serif;
-        /*font-size: 2rem;*/
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -86,12 +86,17 @@
         width: 100%;
         background-color: #d7102e;
         color: white;
-        margin-bottom: 400px;
+        margin-bottom: 30px;
     }
 
     .Changes__content{
         padding: 30px;
         text-align: center;
+    }
+
+    iframe{
+        width: 100%;
+        margin-bottom: 400px;
     }
 </style>
 
@@ -102,14 +107,14 @@
 <section class="Banner">
     <div class="Banner__content animate__animated animate__fadeIn">
         <h1>LGBTIQ+</h1>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Nascetur nec nunc orci finibus luctus aenean tristique.</p>
+        <p>Diversidad, <i class="fas fa-heart"></i> & <i class="fas fa-fist-raised"></i></p>
     </div>
 </section>
 
 <section class="Information">
     <div class="Information__content">
         <h2>¿Qu&eacute; es LGBTIQ+?</h2>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Amet class etiam ornare luctus commodo semper dapibus. Fermentum gravida neque turpis posuere maximus. Varius lobortis aliquet nisl nascetur pulvinar aenean. Fringilla himenaeos mus ridiculus arcu purus morbi. Interdum proin mollis convallis mattis sed tincidunt hendrerit eleifend. Auctor purus class taciti semper etiam.</p>
+        <p>Son las siglas para referirse a personas lesbianas, gays, bisexuales, trans e internsexuales. Pueden encontrarse en otro orden y se puede tanto, agregar como quitar siglas para considerar toda la diversidad sexual.</p>
     </div>
 </section>
 
@@ -122,9 +127,9 @@
 
 <section class="Changes">
     <div class="Changes__content">
-        <h2>¿Qu&eacute; cambios podemos aplicar?</h2>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Integer nascetur natoque class rutrum diam. Maecenas laoreet posuere donec nascetur. Augue feugiat luctus torquent primis nam inceptos. Penatibus lectus id cras, tortor turpis habitasse. Faucibus vivamus ex amet eu venenatis ultrices. Efficitur nulla conubia per purus nibh primis.</p>
+        <h2>¿Cu&aacute;l es nuestro objetivo;?</h2>
+        <p>A trav&eacute;s de esta web poder transmitir la historia LGBT, todo lo que se ha conseguido y todo lo que falta por construir. La informaci&oacute;n es la principal arma para combatir la homof&oacute;bia y acoso, es por ello que a trav&eacute;s de esta misma, daremos a conocer definiciones y mitos sobre la sexualidad. Educando a las personas, para entender la importancia de la educaci&oacute;n sexual, y sobre todo la tolerancia.</p>
     </div>
 </section>
 
-<iframe width="942" height="539" src="https://www.youtube.com/embed/jENodz13xR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="539" src="https://www.youtube.com/embed/jENodz13xR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,10 +1,14 @@
 <script>
+    import { page } from '$app/stores'
+
     import Menu from '$components/Menu.svelte'
     import Accessibility from '$components/Accessibility.svelte'
 </script>
 
-<Menu />
+<Menu path={($page.url.pathname)} />
 
 <Accessibility />
 
-<slot />
+<main class="Main">
+    <slot />
+</main>

@@ -146,7 +146,7 @@
 </style>
 
 <aside class="Accessibility" class:button_open={open}>
-    <button data-message="Abrir menú accesibilidad" on:click={toggleMenu}>
+    <button data-message="Abrir menú accesibilidad" title="Abrir menú accesibilidad" on:click={toggleMenu}>
         <i class="fab fa-accessible-icon"></i>
     </button>
 </aside>
